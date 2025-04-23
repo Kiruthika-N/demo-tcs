@@ -2,8 +2,12 @@ class TestCases {
 @Test
   public void testMethod()
   {
-    System.out.println("hello");
+    assert(false);
   }
-
+@Test
+  public void testMethod2()
+  {
+    assert(true)
+      }
   
 }
